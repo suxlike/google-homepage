@@ -11,15 +11,14 @@ header {
     text-decoration-line: none !important;
     text-decoration-style: solid !important; 
 }
+a {
 
-#about {
-    width: 100px;
+    text-decoration-color: #000 !important;
+    text-decoration-line: none !important;
+    text-decoration-style: solid !important; 
+    -webkit-appearance: none !important;
 }
-#sign {
-    width: 100px;
-    display: flex;
-    align-self: flex-end;
-}
+
 .box{
     padding: 10px;
 }
@@ -37,4 +36,9 @@ margin-left: auto;
     padding: 0 12px;
     -webkit-border-radius: 2px;
     border-radius: 2px;
+}
+#logo {
+display: flex;
+justify-content: center;
+padding-top: 138px;
 }
