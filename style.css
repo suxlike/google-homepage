@@ -68,6 +68,19 @@ border-left-width: 0px;
 border-bottom-width: 0px;
 border-top-width: 0px;
 width: 387px
-
-
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    padding-top: 33px;
+}
+.btn {
+    color: rgb(95, 99, 104);
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    border-width: 0px;
+    border-radius: 4px;
+    width: 135px;
+    height: 34px;
+    margin-right: 16px;
 }
