@@ -1,4 +1,7 @@
-
+body{
+    position: relative;
+    min-height: 100vh;
+}
 header {
     display: flex;
     width:auto;
@@ -13,7 +16,8 @@ a {
     color: #000;
     text-decoration-line: none;
     text-decoration-style: solid; 
-
+    /* padding: 10px; */
+    /* margin:10px; */
 }
 
 .box{
@@ -28,10 +32,8 @@ margin-left: auto;
     font-weight: bold;
     color:#fff;
     background-image: -webkit-linear-gradient(top, rgb(67, 135, 253), rgb(70, 131, 234));
-    /* display: inline-block; */
     line-height: 28px;
     padding: 0 12px;
-    -webkit-border-radius: 2px;
     border-radius: 2px;
 }
 #logo {
@@ -84,3 +86,25 @@ width: 387px
     height: 34px;
     margin-right: 16px;
 }
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: rgb(34, 34, 34);
+    background-color: rgb(242, 242, 242);
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .ftr-right{ 
+     margin-left: auto;
+}    */
+.test {
+    height: 495px;
+}
+   
+/* @p1 {
+
+} */
