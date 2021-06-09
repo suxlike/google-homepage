@@ -40,7 +40,7 @@ margin-left: auto;
 display: flex;
 justify-content: center;
 padding-top: 138px;
-margin-bottom: 35px;
+margin-bottom: 28px;
 }
 
 #search-bar{
@@ -49,8 +49,8 @@ margin-bottom: 35px;
     opacity: 0.25;
     border-style: solid;
     border-radius: 60px;
-    width: 484px;
-    height: 47px;
+    width: 584px;
+    height: 44px;
     
     
     display: flex;
@@ -69,7 +69,7 @@ border-right-width: 0px;
 border-left-width: 0px;
 border-bottom-width: 0px;
 border-top-width: 0px;
-width: 387px
+width: 488px
 }
 .buttons{
     display: flex;
