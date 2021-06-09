@@ -1,0 +1,40 @@
+
+header {
+    display: flex;
+    width:auto;
+    font-size: 13px;
+    line-height: 24px;
+    font-family: Arial, sans-serif;
+    color:rgba(0,0,0,0.87);
+    -webkit-appearance: none !important;
+    text-decoration-color: #000 !important;
+    text-decoration-line: none !important;
+    text-decoration-style: solid !important; 
+}
+
+#about {
+    width: 100px;
+}
+#sign {
+    width: 100px;
+    display: flex;
+    align-self: flex-end;
+}
+.box{
+    padding: 10px;
+}
+.box3 {
+
+margin-left: auto;
+}
+#sign-in-button{
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    color:#fff;
+    background-image: -webkit-linear-gradient(top, rgb(67, 135, 253), rgb(70, 131, 234));
+    /* display: inline-block; */
+    line-height: 28px;
+    padding: 0 12px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
