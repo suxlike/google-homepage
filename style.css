@@ -9,7 +9,6 @@ header {
     line-height: 24px;
     font-family: Arial, sans-serif;
     color:rgba(0,0,0,0.87);
-
 }
 a {
     opacity: 0.75;
@@ -24,7 +23,6 @@ a {
     padding: 10px;
 }
 .box3 {
-
 margin-left: auto;
 }
 #sign-in-button{
@@ -51,8 +49,6 @@ margin-bottom: 28px;
     border-radius: 60px;
     width: 584px;
     height: 44px;
-    
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,12 +61,19 @@ margin-bottom: 28px;
     padding-left: 5px;
 }
 #search-bar-input{
-border-right-width: 0px;
-border-left-width: 0px;
-border-bottom-width: 0px;
-border-top-width: 0px;
-width: 488px
+border: none;
+width: 488px;
+
 }
+
+#search-bar-input:focus{
+    outline: none;
+    opacity: 1;
+    
+}
+
+
+
 .buttons{
     display: flex;
     justify-content: center;
@@ -86,6 +89,7 @@ width: 488px
     height: 34px;
     margin-right: 16px;
 }
+            /* FOOTER */
 footer{
 background-origin: padding-box;
 background-size: auto;
